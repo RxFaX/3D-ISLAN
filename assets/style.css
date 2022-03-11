@@ -1,0 +1,30 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.world {
+  background: #2980b9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.input-group {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  padding: 1rem;
+  color: black;
+}
+.input-group > * {
+  display: block;
+}
+.input-group > * + * {
+  margin-top: 0.5rem;
+}
